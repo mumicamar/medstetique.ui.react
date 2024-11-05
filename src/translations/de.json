@@ -1,0 +1,32 @@
+{
+  "header": {
+    "title": "Medstetique"
+  },
+  "home": {
+    "title": "Willkommen bei Medstetique",
+    "description": "Wir bieten hochwertige Dienstleistungen."
+  },
+  "prices": {
+    "title": "Preisliste",
+    "description": "Hier ist eine Liste unserer Dienstleistungen und deren Preise."
+  },
+  "team": {
+    "title": "Unser Team",
+    "description": "Lernen Sie unser engagiertes Team von Fachleuten kennen."
+  },
+  "work": {
+    "title": "Unsere Arbeit",
+    "description": "Hier sind einige Projekte, an denen wir gearbeitet haben."
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "description": "Zögern Sie nicht, uns über das untenstehende Formular zu kontaktieren.",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Senden"
+    }
+  }
+}
+
