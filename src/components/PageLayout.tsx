@@ -5,12 +5,19 @@ interface PageLayoutProps {
   children: React.ReactNode;
 }
 
-const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
+export default function PageLayout({ children }: PageLayoutProps) {
   return (
-    <Container className="container" sx={{ flexGrow: 1 }}>
+    <Container
+      className="container"
+      sx={{
+        flexGrow: 1,
+        py: 5,
+        borderLeft: '1px solid #ccc',
+        borderRight: '1px solid #ccc',
+        boxShadow: '8px 0px 15px rgba(0, 0, 0, 0.2), -8px 0px 15px rgba(0, 0, 0, 0.2)',
+      }}
+    >
       {children}
     </Container>
   );
-};
-
-export default PageLayout;
+}

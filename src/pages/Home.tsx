@@ -1,16 +1,16 @@
 import React from 'react';
-import {useTranslation} from 'react-i18next';
-import {Container, Typography} from '@mui/material';
+import { useTranslation } from 'react-i18next';
+import { Box, Typography } from '@mui/material';
 
-const Home: React.FC = () => {
-  const {t} = useTranslation();
+function Home() {
+  const { t } = useTranslation();
 
   return (
-    <Container>
+    <Box>
       <Typography variant="h2">{t('home.title')}</Typography>
       <Typography variant="body1">{t('home.description')}</Typography>
-    </Container>
+    </Box>
   );
-};
+}
 
 export default Home;

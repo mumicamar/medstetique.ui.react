@@ -11,24 +11,60 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import theme from './theme/theme';
 import './i18n';
+import PageLayout from './components/PageLayout';
 
-const App: React.FC = () => {
+function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/prices" element={<Prices />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route
+            path="/"
+            element={
+              <PageLayout>
+                <Home />
+              </PageLayout>
+            }
+          />
+          <Route
+            path="/prices"
+            element={
+              <PageLayout>
+                <Prices />
+              </PageLayout>
+            }
+          />
+          <Route
+            path="/team"
+            element={
+              <PageLayout>
+                <Team />
+              </PageLayout>
+            }
+          />
+          <Route
+            path="/work"
+            element={
+              <PageLayout>
+                <Work />
+              </PageLayout>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <PageLayout>
+                <Contact />
+              </PageLayout>
+            }
+          />
         </Routes>
         <Footer />
       </Router>
     </ThemeProvider>
   );
-};
+}
 
 export default App;

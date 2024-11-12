@@ -1,9 +1,9 @@
 import React from 'react';
-import {useTranslation} from 'react-i18next';
-import {Container, Typography, List, ListItem, ListItemText} from '@mui/material';
+import { useTranslation } from 'react-i18next';
+import { Container, Typography, List, ListItem, ListItemText } from '@mui/material';
 
-const Prices: React.FC = () => {
-  const {t} = useTranslation();
+function Prices() {
+  const { t } = useTranslation();
 
   return (
     <Container>
@@ -15,17 +15,17 @@ const Prices: React.FC = () => {
       {/* Example Price List */}
       <List>
         <ListItem>
-          <ListItemText primary="Service 1" secondary="$100"/>
+          <ListItemText primary="Service 1" secondary="$100" />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Service 2" secondary="$200"/>
+          <ListItemText primary="Service 2" secondary="$200" />
         </ListItem>
         <ListItem>
-          <ListItemText primary="Service 3" secondary="$300"/>
+          <ListItemText primary="Service 3" secondary="$300" />
         </ListItem>
       </List>
     </Container>
   );
-};
+}
 
 export default Prices;
