@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/medstetique.ui.react/static/css/main.de90b3f4.css",
+    "main.js": "/medstetique.ui.react/static/js/main.dbbaa1ba.js",
+    "static/media/header-logo.png": "/medstetique.ui.react/static/media/header-logo.00d4a317943fe5f1eb53.png",
+    "index.html": "/medstetique.ui.react/index.html",
+    "main.de90b3f4.css.map": "/medstetique.ui.react/static/css/main.de90b3f4.css.map",
+    "main.dbbaa1ba.js.map": "/medstetique.ui.react/static/js/main.dbbaa1ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de90b3f4.css",
+    "static/js/main.dbbaa1ba.js"
+  ]
+}
