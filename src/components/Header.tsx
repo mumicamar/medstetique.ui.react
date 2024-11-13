@@ -72,9 +72,10 @@ export default function Header() {
       <Drawer anchor="right" open={drawerOpen} onClose={toggleDrawer(false)}>
         <Box
           sx={{
-            width: 150,
+            width: 200,
             display: 'flex',
             flexDirection: 'column',
+            height: '100%',
           }}
           onClick={toggleDrawer(false)}
           onKeyDown={toggleDrawer(false)}
@@ -88,13 +89,15 @@ export default function Header() {
                 padding: '16px',
                 color: isActive ? '#d4a373' : 'secondary',
                 backgroundColor: isActive ? 'rgba(212, 163, 115, 0.2)' : 'transparent',
-                alignItems: 'center',
+                justifyContent: 'center',
               })}
             >
               <Typography>{item.label}</Typography>
             </NavLink>
           ))}
-          <Box sx={{ display: 'flex', padding: '0 16px', marginTop: 'auto' }}>
+          <Box
+            sx={{ display: 'flex', padding: '0 16px', marginTop: 'auto', justifyContent: 'center' }}
+          >
             <LanguageSwitcher />
           </Box>
         </Box>

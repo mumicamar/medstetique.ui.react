@@ -15,6 +15,7 @@ export default function PageLayout({ children }: PageLayoutProps) {
         borderLeft: '1px solid #ccc',
         borderRight: '1px solid #ccc',
         boxShadow: '8px 0px 15px rgba(0, 0, 0, 0.2), -8px 0px 15px rgba(0, 0, 0, 0.2)',
+        height: 'calc(100% - 130px)',
       }}
     >
       {children}

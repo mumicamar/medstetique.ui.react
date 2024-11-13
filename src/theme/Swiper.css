@@ -1,0 +1,12 @@
+.mySwiper {
+    max-width: 100%;
+}
+
+.mySwiper .swiper-slide {
+    opacity: 0.4; /* Default opacity for all slides */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1 !important; /* Full opacity for the active slide */
+}
