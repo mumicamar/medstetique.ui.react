@@ -10,7 +10,12 @@
   },
   "home": {
     "title": "Willkommen bei Medstetique",
-    "description": "In München, im Stadtteil Obergiesing-Fasangarten, bietet Ihnen der stilvolle Salon Mestetique alles, was Sie für Ihre Schönheit brauchen. Vergessen Sie den Alltagsstress und lassen Sie sich mit einem umfassenden Beauty-Programm verwöhnen.<br /><br />Nächste öffentliche Verkehrsmittel:<br /><br />Die Haltestelle Pöllatstraße ist nur 3 Gehminuten vom Salon entfernt.<br /><br />Das Team:<br /><br />Inhaberin Nermina kümmert sich liebevoll um ihre Kundschaft. Mit langjähriger Erfahrung sorgt sie stets dafür, dass jeder Kunde ein einzigartiges und entspannendes Erlebnis erhält.<br /><br />Was wir am Salon mögen:<br /><br />Atmosphäre: Entspannend, komfortabel, freundlich.<br />Fachwissen: Gesichtsbehandlungen, Styling von Wimpern und Augenbrauen.<br />Produkte und Marken: Hochwertige Produkte.<br />Extras: Kostenlose Getränke und kinderfreundlich."
+    "description": "In München, im Stadtteil Obergiesing-Fasangarten, bietet Ihnen der stilvolle Salon Mestetique alles, was Sie für Ihre Schönheit brauchen. Vergessen Sie den Alltagsstress und lassen Sie sich mit einem umfassenden Beauty-Programm verwöhnen.<br /><br />Nächste öffentliche Verkehrsmittel:<br /><br />Die Haltestelle Pöllatstraße ist nur 3 Gehminuten vom Salon entfernt.<br /><br />Das Team:<br /><br />Inhaberin Nermina kümmert sich liebevoll um ihre Kundschaft. Mit langjähriger Erfahrung sorgt sie stets dafür, dass jeder Kunde ein einzigartiges und entspannendes Erlebnis erhält.<br /><br />Was wir am Salon mögen:<br /><br />Atmosphäre: Entspannend, komfortabel, freundlich.<br />Fachwissen: Gesichtsbehandlungen, Styling von Wimpern und Augenbrauen.<br />Produkte und Marken: Hochwertige Produkte.<br />Extras: Kostenlose Getränke und kinderfreundlich.",
+    "welcomeWrapper": {
+      "title": "Ästhetische Medizin und medizinische Fachkosmetik",
+      "subTitle": "Russian Lips, Botox, Profhilo, Polynukleotide, Lemon Bottle, Microneedling, PRX, Aknebehandlung",
+      "bookNowButtonLabel": "Jetzt buchen!"
+    }
   },
   "prices": {
     "title": "Preisliste",

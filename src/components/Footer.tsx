@@ -14,7 +14,6 @@ export default function Footer() {
         background: 'radial-gradient(circle, rgba(245, 230, 204, 0.6) 20%, #e8d4b0 100%);',
         color: 'secondary',
         textAlign: 'center',
-        position: 'fixed',
         bottom: 0,
         width: '100%',
       }}

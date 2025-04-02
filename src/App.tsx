@@ -23,14 +23,7 @@ function App() {
         <Router>
           <Header />
           <Routes>
-            <Route
-              path="/"
-              element={
-                <PageLayout>
-                  <Home />
-                </PageLayout>
-              }
-            />
+            <Route path="/" element={<Home />} />
             <Route
               path="/prices"
               element={

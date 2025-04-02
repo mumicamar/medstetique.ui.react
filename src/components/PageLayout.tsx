@@ -1,11 +1,12 @@
 import React from 'react';
-import { Container } from '@mui/material';
+import { Container, SxProps, Theme } from '@mui/material';
 
 interface PageLayoutProps {
   children: React.ReactNode;
+  sx?: SxProps<Theme>;
 }
 
-export default function PageLayout({ children }: PageLayoutProps) {
+export default function PageLayout({ children, sx }: PageLayoutProps) {
   return (
     <Container
       className="container"
@@ -15,7 +16,8 @@ export default function PageLayout({ children }: PageLayoutProps) {
         borderLeft: '1px solid #ccc',
         borderRight: '1px solid #ccc',
         boxShadow: '8px 0px 15px rgba(0, 0, 0, 0.2), -8px 0px 15px rgba(0, 0, 0, 0.2)',
-        height: 'calc(100% - 130px)',
+        height: 'calc(100% - 30px)',
+        ...sx,
       }}
     >
       {children}
